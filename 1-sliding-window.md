@@ -14,12 +14,12 @@ The sliding window pattern is very popular among array and string problems
 - In some problems, we are asked to find the longest substring containing all **repeating** characters or find the longest substring containing **K** distinct characters, these types of problems will require us to expand the window when we have repeating characters or shrink the window when we have distinct characters as a part of the window.
 - In some problems, we are asked to find the longest substring containing **no more than K** distinct characters, these types of problems will require us to shrink the window when we have more than **K** distinct characters in the current window.
 
-## Leetcode Problems using Sliding Window Pattern
-- [Leetcode 643. Maximum Average Subarray I](https://leetcode.com/problems/maximum-average-subarray-i/)
-- [Leetcode 209. Minimum Size Subarray Sum](https://leetcode.com/problems/minimum-size-subarray-sum/)
-- [Leetcode 3. Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/)
-- [Leetcode 438. Find All Anagrams in a String](https://leetcode.com/problems/find-all-anagrams-in-a-string/)
-- [Leetcode 76. Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/)
+## Leetcode Problems using Sliding Window
+- [643. Maximum Average Subarray I](https://leetcode.com/problems/maximum-average-subarray-i/)
+- [209. Minimum Size Subarray Sum](https://leetcode.com/problems/minimum-size-subarray-sum/)
+- [3. Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/)
+- [438. Find All Anagrams in a String](https://leetcode.com/problems/find-all-anagrams-in-a-string/)
+- [76. Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/)
 
 
 ## 1. Maximum Sum Subarray of Size K (easy)
@@ -39,6 +39,8 @@ def max_sub_array_of_size_k(k, arr):
 ```
 Time Complexity: O(N)
 Space Complexity: O(1)
+
+[Back to top](#)
 
 ## 2. Smallest Subarray with a given sum (easy)
 Given an array of positive numbers and a positive number ‘S’, find the length of the smallest contiguous subarray whose sum is greater than or equal to ‘S’. Return 0, if no such subarray exists.
@@ -60,6 +62,8 @@ def smallest_subarray_with_given_sum(s, arr):
 ```
 Time Complexity: O(N)
 Space Complexity: O(1)
+
+[Back to top](#)
 
 ## 3. Longest Substring with K Distinct Characters (medium)
 Given a string, find the length of the longest substring in it with no more than K distinct characters.
@@ -90,6 +94,8 @@ def longest_substring_with_k_distinct(str1, k):
 Time Complexity: O(N)
 Space Complexity: O(K)
 
+[Back to top](#)
+
 ## 4. Fruits into Baskets (medium)
 Given an array of characters where each character represents a fruit tree, you are given two baskets and your goal is to put maximum number of fruits in each basket. The only restriction is that each basket can have only one type of fruit.
 ```python
@@ -118,6 +124,8 @@ def fruits_into_baskets(fruits):
 Time Complexity: O(N)
 Space Complexity: O(1)
 
+[Back to top](#)
+
 ## 5. No-repeat Substring (hard)
 Given a string, find the length of the longest substring which has no repeating characters.
 ```python
@@ -143,6 +151,8 @@ def non_repeat_substring(str1):
 ```
 Time Complexity: O(N)
 Space Complexity: O(K)
+
+[Back to top](#)
 
 ## 6. Longest Substring with Same Letters after Replacement (hard)
 Given a string with lowercase letters only, if you are allowed to replace no more than ‘k’ letters with any letter, find the length of the longest substring having the same letters after replacement.
@@ -175,6 +185,8 @@ def length_of_longest_substring(str1, k):
 Time Complexity: O(N)
 Space Complexity: O(1)
 
+[Back to top](#)
+
 ## 7. Longest Subarray with Ones after Replacement (hard)
 Given an array containing 0s and 1s, if you are allowed to replace no more than ‘k’ 0s with 1s, find the length of the longest contiguous subarray having all 1s.
 ```python
@@ -201,6 +213,8 @@ def length_of_longest_substring(arr, k):
 ```
 Time Complexity: O(N)
 Space Complexity: O(1)
+
+[Back to top](#)
 
 ## 8. Permutation in a String (hard)
 Given a string and a pattern, find out if the string contains any permutation of the pattern.
@@ -239,6 +253,8 @@ def find_permutation(str1, pattern):
 ```
 Time Complexity: O(N+M)
 Space Complexity: O(M)
+
+[Back to top](#)
 
 ## 9. String Anagrams (hard)
 Given a string and a pattern, find all anagrams of the pattern in the given string.
@@ -279,6 +295,8 @@ def find_string_anagrams(str1, pattern):
 ```
 Time Complexity: O(N+M)
 Space Complexity: O(M)
+
+[Back to top](#)
 
 ## 10. Smallest Window containing Substring (hard)
 Given a string and a pattern, find the smallest substring in the given string which has all the characters of the given pattern.
@@ -322,3 +340,5 @@ def find_substring(str1, pattern):
 ```
 Time Complexity: O(N+M)
 Space Complexity: O(M)
+
+[Back to top](#)
