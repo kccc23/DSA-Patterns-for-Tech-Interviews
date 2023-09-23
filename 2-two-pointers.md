@@ -57,7 +57,7 @@ def threeSum(self, nums: List[int]) -> List[List[int]]:
 Time complexity: O(n^2)
 Space complexity: O(n)
 
-<p align="right"><a href="#top">Back to top</a></p>
+<p align="right"><a href="#">Back to top</a></p>
 
 ## 16. 3Sum Closest
 Given an array nums of n integers and an integer target, find three integers in nums such that the sum is closest to target. Return the sum of the three integers. You may assume that each input would have exactly one solution.
@@ -82,7 +82,7 @@ def threeSumClosest(self, nums: List[int], target: int) -> int:
 Time complexity: O(n^2)
 Space complexity: O(n)
 
-<p align="right"><a href="#top">Back to top</a></p>
+<p align="right"><a href="#">Back to top</a></p>
 
 ## 18. 4Sum
 Given an array nums of n integers and an integer target, are there elements a, b, c, and d in nums such that a + b + c + d = target? Find all unique quadruplets in the array which gives the sum of target.
@@ -115,7 +115,7 @@ def fourSum(self, nums: List[int], target: int) -> List[List[int]]:
 Time complexity: O(n^3)
 Space complexity: O(n)
 
-<p align="right"><a href="#top">Back to top</a></p>
+<p align="right"><a href="#">Back to top</a></p>
 
 ## 26. Remove Duplicates from Sorted Array
 Given a sorted array nums, remove the duplicates in-place such that each element appear only once and return the new length.
@@ -133,7 +133,7 @@ def removeDuplicates(self, nums: List[int]) -> int:
 Time complexity: O(n)
 Space complexity: O(1)
 
-<p align="right"><a href="#top">Back to top</a></p>
+<p align="right"><a href="#">Back to top</a></p>
 
 ## 27. Remove Element
 Given an array nums and a value val, remove all instances of that value in-place and return the new length.
@@ -149,7 +149,7 @@ def removeElement(self, nums: List[int], val: int) -> int:
 Time complexity: O(n)
 Space complexity: O(1)
 
-<p align="right"><a href="#top">Back to top</a></p>
+<p align="right"><a href="#">Back to top</a></p>
 
 ## 28. Implement strStr()
 Return the index of the first occurrence of needle in haystack, or -1 if needle is not part of haystack.
@@ -165,7 +165,7 @@ def strStr(self, haystack: str, needle: str) -> int:
 Time complexity: O(n)
 Space complexity: O(1)
 
-<p align="right"><a href="#top">Back to top</a></p>
+<p align="right"><a href="#">Back to top</a></p>
 
 ## 42. Trapping Rain Water
 Given n non-negative integers representing an elevation map where the width of each bar is 1, compute how much water it is able to trap after raining.
@@ -194,7 +194,7 @@ def trap(self, height: List[int]) -> int:
 Time complexity: O(n)
 Space complexity: O(1)
 
-<p align="right"><a href="#top">Back to top</a></p>
+<p align="right"><a href="#">Back to top</a></p>
 
 ## 75. Sort Colors
 Given an array with n objects colored red, white or blue, sort them in-place so that objects of the same color are adjacent, with the colors in the order red, white and blue.
@@ -219,7 +219,7 @@ def sortColors(self, nums: List[int]) -> None:
 Time complexity: O(n)
 Space complexity: O(1)
 
-<p align="right"><a href="#top">Back to top</a></p>
+<p align="right"><a href="#">Back to top</a></p>
 
 ## 88. Merge Sorted Array
 Given two sorted integer arrays nums1 and nums2, merge nums2 into nums1 as one sorted array.
@@ -246,4 +246,4 @@ def merge(self, nums1: List[int], m: int, nums2: List[int], n: int) -> None:
 Time complexity: O(n)
 Space complexity: O(1)
 
-<p align="right"><a href="#top">Back to top</a></p>
+<p align="right"><a href="#">Back to top</a></p>

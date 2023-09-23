@@ -1,4 +1,4 @@
-# Sliding Window  <a id="top"></a>
+# Sliding Window
 ## 1. Introduction
 The sliding window pattern is used to perform a required operation on a specific window size of a given array or linked list such as finding the longest subarray containing all 1s.
 ## 2. How do we identify that we need to use a sliding window pattern?
@@ -40,7 +40,7 @@ def max_sub_array_of_size_k(k, arr):
 Time Complexity: O(N)
 Space Complexity: O(1)
 
-<p align="right"><a href="#top">Back to top</a></p>
+<p align="right"><a href="#">Back to top</a></p>
 
 ## 2. Smallest Subarray with a given sum (easy)
 Given an array of positive numbers and a positive number ‘S’, find the length of the smallest contiguous subarray whose sum is greater than or equal to ‘S’. Return 0, if no such subarray exists.
@@ -63,7 +63,7 @@ def smallest_subarray_with_given_sum(s, arr):
 Time Complexity: O(N)
 Space Complexity: O(1)
 
-<p align="right"><a href="#top">Back to top</a></p>
+<p align="right"><a href="#">Back to top</a></p>
 
 ## 3. Longest Substring with K Distinct Characters (medium)
 Given a string, find the length of the longest substring in it with no more than K distinct characters.
@@ -94,7 +94,7 @@ def longest_substring_with_k_distinct(str1, k):
 Time Complexity: O(N)
 Space Complexity: O(K)
 
-<p align="right"><a href="#top">Back to top</a></p>
+<p align="right"><a href="#">Back to top</a></p>
 
 ## 4. Fruits into Baskets (medium)
 Given an array of characters where each character represents a fruit tree, you are given two baskets and your goal is to put maximum number of fruits in each basket. The only restriction is that each basket can have only one type of fruit.
@@ -124,7 +124,7 @@ def fruits_into_baskets(fruits):
 Time Complexity: O(N)
 Space Complexity: O(1)
 
-<p align="right"><a href="#top">Back to top</a></p>
+<p align="right"><a href="#">Back to top</a></p>
 
 ## 5. No-repeat Substring (hard)
 Given a string, find the length of the longest substring which has no repeating characters.
@@ -152,7 +152,7 @@ def non_repeat_substring(str1):
 Time Complexity: O(N)
 Space Complexity: O(K)
 
-<p align="right"><a href="#top">Back to top</a></p>
+<p align="right"><a href="#">Back to top</a></p>
 
 ## 6. Longest Substring with Same Letters after Replacement (hard)
 Given a string with lowercase letters only, if you are allowed to replace no more than ‘k’ letters with any letter, find the length of the longest substring having the same letters after replacement.
@@ -185,7 +185,7 @@ def length_of_longest_substring(str1, k):
 Time Complexity: O(N)
 Space Complexity: O(1)
 
-<p align="right"><a href="#top">Back to top</a></p>
+<p align="right"><a href="#">Back to top</a></p>
 
 ## 7. Longest Subarray with Ones after Replacement (hard)
 Given an array containing 0s and 1s, if you are allowed to replace no more than ‘k’ 0s with 1s, find the length of the longest contiguous subarray having all 1s.
@@ -214,7 +214,7 @@ def length_of_longest_substring(arr, k):
 Time Complexity: O(N)
 Space Complexity: O(1)
 
-<p align="right"><a href="#top">Back to top</a></p>
+<p align="right"><a href="#">Back to top</a></p>
 
 ## 8. Permutation in a String (hard)
 Given a string and a pattern, find out if the string contains any permutation of the pattern.
@@ -254,7 +254,7 @@ def find_permutation(str1, pattern):
 Time Complexity: O(N+M)
 Space Complexity: O(M)
 
-<p align="right"><a href="#top">Back to top</a></p>
+<p align="right"><a href="#">Back to top</a></p>
 
 ## 9. String Anagrams (hard)
 Given a string and a pattern, find all anagrams of the pattern in the given string.
@@ -296,7 +296,7 @@ def find_string_anagrams(str1, pattern):
 Time Complexity: O(N+M)
 Space Complexity: O(M)
 
-<p align="right"><a href="#top">Back to top</a></p>
+<p align="right"><a href="#">Back to top</a></p>
 
 ## 10. Smallest Window containing Substring (hard)
 Given a string and a pattern, find the smallest substring in the given string which has all the characters of the given pattern.
@@ -341,4 +341,4 @@ def find_substring(str1, pattern):
 Time Complexity: O(N+M)
 Space Complexity: O(M)
 
-<p align="right"><a href="#top">Back to top</a></p>
+<p align="right"><a href="#">Back to top</a></p>

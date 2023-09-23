@@ -36,7 +36,7 @@ def hasCycle(self, head: ListNode) -> bool:
 Time complexity: O(n)
 Space complexity: O(1)
 
-<p align="right"><a href="#top">Back to top</a></p>
+<p align="right"><a href="#">Back to top</a></p>
 
 ## 142. Linked List Cycle II
 Given a linked list, return the node where the cycle begins. If there is no cycle, return null.
@@ -61,7 +61,7 @@ def detectCycle(self, head: ListNode) -> ListNode:
 Time complexity: O(n)
 Space complexity: O(1)
 
-<p align="right"><a href="#top">Back to top</a></p>
+<p align="right"><a href="#">Back to top</a></p>
 
 ## 202. Happy Number
 Write an algorithm to determine if a number `n` is happy.
@@ -92,7 +92,7 @@ def isHappy(self, n: int) -> bool:
 Time complexity: O(logn)
 Space complexity: O(1)
 
-<p align="right"><a href="#top">Back to top</a></p>
+<p align="right"><a href="#">Back to top</a></p>
 
 ## 876. Middle of the Linked List
 Given the head of a singly linked list, return the middle node of the linked list.
@@ -110,7 +110,7 @@ def middleNode(self, head: ListNode) -> ListNode:
 Time complexity: O(n)
 Space complexity: O(1)
 
-<p align="right"><a href="#top">Back to top</a></p>
+<p align="right"><a href="#">Back to top</a></p>
 
 ## 234. Palindrome Linked List
 Given the head of a singly linked list, return true if it is a palindrome.
@@ -134,7 +134,7 @@ def isPalindrome(self, head: ListNode) -> bool:
 Time complexity: O(n)
 Space complexity: O(1)
 
-<p align="right"><a href="#top">Back to top</a></p>
+<p align="right"><a href="#">Back to top</a></p>
 
 ## 19. Remove Nth Node From End of List
 Given the head of a linked list, remove the nth node from the end of the list and return its head.
@@ -154,7 +154,7 @@ def removeNthFromEnd(self, head: ListNode, n: int) -> ListNode:
 Time complexity: O(n)
 Space complexity: O(1)
 
-<p align="right"><a href="#top">Back to top</a></p>
+<p align="right"><a href="#">Back to top</a></p>
 
 ## 457. Circular Array Loop
 You are given an array of positive and negative integers. If a number n at an index is positive, then move forward n steps. Conversely, if it's negative (-n), move backward n steps. Assume the first element of the array is forward next to the last element, and the last element is backward next to the first element. Determine if there is a loop in this array. A loop starts and ends at a particular index with more than 1 element along the loop. The loop must be "forward" or "backward'.
@@ -184,7 +184,7 @@ def circularArrayLoop(self, nums: List[int]) -> bool:
 Time complexity: O(n)
 Space complexity: O(1)
 
-<p align="right"><a href="#top">Back to top</a></p>
+<p align="right"><a href="#">Back to top</a></p>
 
 ## 109. Convert Sorted List to Binary Search Tree
 Given the head of a singly linked list where elements are sorted in ascending order, convert it to a height balanced BST.
@@ -216,7 +216,7 @@ def sortedListToBST(self, head: ListNode) -> TreeNode:
 Time complexity: O(nlogn)
 Space complexity: O(logn)
 
-<p align="right"><a href="#top">Back to top</a></p>
+<p align="right"><a href="#">Back to top</a></p>
 
 ## 1417. Reformat The String
 Given alphanumeric string `s`. (Alphanumeric string is a string consisting of lowercase English letters and digits).
@@ -251,7 +251,7 @@ def reformat(self, s: str) -> str:
 Time complexity: O(n)
 Space complexity: O(n)
 
-<p align="right"><a href="#top">Back to top</a></p>
+<p align="right"><a href="#">Back to top</a></p>
 
 ## 1423. Maximum Points You Can Obtain from Cards
 There are several cards arranged in a row, and each card has an associated number of points. The points are given in the integer array `cardPoints`.
@@ -278,4 +278,4 @@ def maxScore(self, cardPoints: List[int], k: int) -> int:
 Time complexity: O(n)
 Space complexity: O(1)
 
-<p align="right"><a href="#top">Back to top</a></p>
+<p align="right"><a href="#">Back to top</a></p>

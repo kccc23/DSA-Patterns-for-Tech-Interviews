@@ -87,4 +87,4 @@ class Solution(object):
 Time complexity: O(n)
 Space complexity: O(1)
 
-<p align="right"><a href="#top">Back to top</a></p>
+<p align="right"><a href="#">Back to top</a></p>
