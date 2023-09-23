@@ -1,4 +1,4 @@
-# Two Pointers  <a name="top"></a>
+# Two Pointers
 ## Introduction
 Two pointers is a technique that uses two pointers which iterate through the array in tandem to solve problems. The two pointers can move in the same direction or in different directions depending on the problem. The technique is often used as a sub-procedure in other algorithms such as [binary search](./README.md) and [merge sort](./README.md).
 
