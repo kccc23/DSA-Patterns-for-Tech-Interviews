@@ -40,6 +40,24 @@ def max_sub_array_of_size_k(k, arr):
 Time Complexity: O(N)
 Space Complexity: O(1)
 
+### Extra Problem: Find maximum Sum of any continuous subarray in any size with any number - Kadane's Algorithm
+- [53. Maximum Subarray](https://leetcode.com/problems/maximum-subarray/)
+```python
+def max_subarray_sum(arr):
+  if not arr:
+    return 0
+
+  max_current = max_global = arr[0]
+
+  for i in range(1, len(arr)):
+    max_current = max(arr[i], max_current + arr[i])
+    max_global = max(max_global, max_current)
+
+  return max_global
+```
+Time Complexity: O(N)
+Space Complexity: O(1)
+
 <p align="right"><a href="#">Back to top</a></p>
 
 ## 2. Smallest Subarray with a given sum (easy)
